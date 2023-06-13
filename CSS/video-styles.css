@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 2vw;
+    margin: 2vw;
+}
+
+.one-video {
+    /* border: 1px solid black; */
+    width: 40vw;
+    min-width: 400px;
+    max-width: 560px;
+}
+
+.one-video h4, .one-video p {
+    text-align: center;
+}
+
+.one-video h4 {
+    font-size: calc((1.7 - 1) * 1.2vw + .4rem);
+    height: 50px;
+}
+
+.one-video iframe {
+    width: 40vw;
+    max-width: 560px;
+    height: calc(40vw * (315 / 560));
+    max-height: 315px;
+}

@@ -1,17 +1,23 @@
 main {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    margin: 3vw 5vw;
+    align-items: top;
+    justify-content: flex-start;
+    gap: 3vw;
+    margin: 2vw;
 }
 
-#bonnie-pic-about {
-    width: 30vw;
+main img {
+    width: 25vw;
+    height: calc(25vw * (2400 / 1600))
 }
 
 section {
-    width: 55vw;
+    width: 40vw;
     min-width: 550px;
+}
+
+section p {
+    margin-top: 0;
+    font-size: calc((1.5 - 1) * 1.2vw + .3rem);
 }

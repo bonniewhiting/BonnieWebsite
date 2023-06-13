@@ -1,0 +1,107 @@
+p, a {
+    font-size: calc((1.7 - 1) * 1.2vw + .6rem);
+}
+
+#pageLinks a {
+    display: block;
+    text-decoration: none;
+    font-size: calc((2 - 1) * 1.2vw + .6rem);
+    padding: 1vw 2vw;
+    color: black;
+    background-color: grey;
+}
+
+main {
+    margin: 2vw;
+}
+
+section {
+    margin: 2vw auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.photo-caption {
+    margin: 0;
+}
+
+#SPP-container {
+    width: 60vw;
+    margin: 2vw auto;
+}
+
+#SPP img {
+    width: 100%;
+    min-width: 500px;
+    margin: 2vw auto;
+}
+
+#SPP-text {
+    margin: 0;
+    width: auto;
+}
+
+#cage img {
+    /* max-height: 250px;
+    max-width: 886px; */
+    width: 80vw;
+    margin: 0 8vw;
+}
+
+#cage-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 3vw auto;
+}
+
+#cage-text {
+    width: 45vw;
+    min-width: 400px;
+}
+
+#torrence p {
+    text-align: center;
+}
+
+#torrence-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tf-container {
+    /* border: 1px solid black; */
+    width: 560px;
+    margin: 1vw;
+}
+
+#al-container, #rfbf-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+
+#al-container img, #rfbf-container img {
+    width: 80vw;
+    max-width: 700px;
+}
+
+#al-container p, #rfbf-container p {
+    margin: 0;
+    width: 40vw;
+}
+
+

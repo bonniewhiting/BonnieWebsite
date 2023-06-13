@@ -34,6 +34,8 @@ header {
     margin: 0px;
     padding: 20px 2vw;
     background-color: rgb(15,15,15);
+    /* background-image: url("../images/cage-score.jpeg"); */
+    /* opacity: .5; */
 }
 
 #BWHeader {
@@ -43,6 +45,7 @@ header {
     margin: 0 1vw;
     text-decoration: none;
     color: rgb(227, 231, 179);
+    /* color: black; */
 }
 
 .nav li {
