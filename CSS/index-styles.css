@@ -1,0 +1,4 @@
+#bonnie-pic-home {
+    width: 100vw;
+    height: calc(100vw * (1601/2400))
+}

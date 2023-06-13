@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin: 3vw 5vw;
+}
+
+#bonnie-pic-about {
+    width: 30vw;
+}
+
+section {
+    width: 55vw;
+    min-width: 550px;
+}
