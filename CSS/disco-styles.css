@@ -1,3 +1,7 @@
+#heads-up {
+    text-align: center;
+}
+
 main {
     display: flex;
     flex-flow: row wrap;
