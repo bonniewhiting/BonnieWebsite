@@ -1,10 +1,19 @@
 #bonnie-pic-home {
     width: 100vw;
-    height: calc(100vw * (1601/2400));
+    max-height: 100vh;
+    height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
+    object-fit: cover;
+    object-position: 70% 25%;
+}
+
+@media screen and (min-width: 1500px) {
+    #bonnie-pic-home {
+        /* margin-top: calc((100vw - 1500px) * .12);  */
+    }
 }
 
 /* things for the header */
