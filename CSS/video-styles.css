@@ -19,6 +19,7 @@ main {
 }
 
 .one-video h4 {
+    font-family: "EB Garamond";
     font-size: calc((1.7 - 1) * 1.2vw + .4rem);
     height: 50px;
 }
@@ -28,4 +29,28 @@ main {
     max-width: 560px;
     height: calc(40vw * (315 / 560));
     max-height: 315px;
+}
+
+@media screen and (max-width: 600px) {
+    .one-video {
+        width: 100%;
+        min-width: 0px;
+        max-width: none;
+        margin-bottom: 2vh;
+    }
+
+    .one-video h4 {
+        font-size: calc((2 - 1) * 1.2vw + .6rem);
+        height: auto;
+    }
+
+    .one-video p, .one-video li {
+        font-size: calc((2 - 1) * 1.2vw + .5rem);
+    }
+
+    .one-video iframe {
+        width: 90vw;
+        height: calc(90vw * (315 / 560));
+        margin: 0 3vw;
+    }
 }
