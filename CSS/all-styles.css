@@ -50,8 +50,9 @@ header {
 
 #BWHeader {
   /* display: inline; */
-  text-align: center;
-  /* width: 20vw; */
+  text-align: left;
+  width: fit-content;
+  min-width: 500px;
   font-size: calc((2 - 1) * 1.2vw + 1.5rem);
   margin: 0;
   text-decoration: none;
@@ -77,11 +78,12 @@ header {
 }
 
 .nav li a:hover {
-  background-color: rgb(240, 70, 70);
+  /* background-color: rgb(240, 70, 70); */
+  background-color: rgb(228, 67, 113);
 }
 
 .nav ul {
-  width: 60vw;
+  width: fit-content;
   display: flex;
   flex-flow: row nowrap;
   justify-content: right;
@@ -100,11 +102,30 @@ header {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 800px) {
+footer {
+  z-index: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0px 20px; 
+  background: rgb(15,15,15);
+  width: calc(100% - 40px);
+  color: rgb(227, 231, 179);
+}
+
+footer p, footer p a {
+  font-size: 14px;
+}
+
+footer p a {
+  color: rgb(227, 231, 179);
+}
+
+@media screen and (max-width: 1000px) {
   header {
     display: block;
     margin: 0 auto;
-    padding: 5vw;
+    padding: 20px;
   }
 
   #BWHeader {
@@ -143,8 +164,8 @@ header {
   #menu-button {
     display: block;
     position: absolute;
-    right: 5vw;
-    top: 5vw;
+    right: 20px;
+    top: 20px;
     height: 39px;
     background-color: antiquewhite;
     border: 0;

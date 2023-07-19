@@ -31,6 +31,10 @@ main {
     max-height: 315px;
 }
 
+footer {
+    justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
     .one-video {
         width: 100%;

@@ -4,5 +4,20 @@ h3 {
 
 img {
     width: 60vw;
-    margin: auto 20vw;
+    margin: auto 20vw 3em 20vw;
+}
+
+#contact-copy {
+    margin: 3em auto;
+}
+
+#instagram, #instagram-link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+footer {
+    justify-content: center;
 }

@@ -104,4 +104,6 @@ a {
     width: 40vw;
 }
 
-
+footer {
+    justify-content: center;
+}

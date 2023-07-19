@@ -24,6 +24,9 @@ img {
 }
 
 .overlay {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -42,13 +45,18 @@ img {
 
 .overlay p {
     color: black;
-    position: absolute;
+    margin: 10px 10%;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     text-align: center;
+}
+
+footer {
+    justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
