@@ -32,8 +32,8 @@ section p {
 }
 
 #bio-first {
-    width: 70vw;
-    margin: 3vh 15vw;
+    width: 60vw;
+    margin: 3vh 20vw;
     font-size: calc((1.5 - 1) * 1.2vw + 1rem);
 }
 

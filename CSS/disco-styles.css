@@ -1,20 +1,40 @@
 #heads-up {
     text-align: center;
+    margin: 2vw auto;
 }
 
 main {
     display: flex;
     flex-flow: row wrap;
-    margin: 3vw;
+    margin: 2vw 3vw;
     gap: 2vw;
     justify-content: center;
     align-items: center;
 }
 
+/* main {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 2%;
+    margin: 2vh 2vw; 
+} */
+
 .container {
-    position: relative;
     width: 30vw;
-    min-width: 300px;
+    min-width: 400px;
+    position: relative;
+}
+
+@media screen and (max-width: 1333px) {
+    .container {
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .container {
+        width: 80vw;
+    }
 }
 
 img {
@@ -46,6 +66,7 @@ img {
 .overlay p {
     color: black;
     margin: 10px 10%;
+    font-size: calc((1.5 - 1) * 1.2vw + .8rem);
     /* position: absolute;
     top: 50%;
     left: 50%;
