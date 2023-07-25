@@ -168,6 +168,13 @@ a:hover {
     margin: 0 auto;
 }
 
+#cage-bottom > p {
+    border: 1px solid black;
+    background-color: rgb(250, 245, 245);
+    padding: 5px;
+    border-radius: 10px;
+}
+
 #cage-bottom-flex {
     display: flex;
     flex-flow: row wrap;
@@ -227,6 +234,10 @@ a:hover {
     width: 90vw;
     max-width: 900px;
     margin: 0 auto;
+}
+
+#SPP-download:hover, #voices-link:hover {
+    box-shadow: 0px 0px 20px 5px grey;
 }
 
 #torrence-container {
@@ -296,6 +307,10 @@ footer {
 
     #SPP img, #TTE img {
         min-width: 0;
+    }
+
+    #SPP-download {
+        font-size: 20px;
     }
 
     #TTE div iframe, iframe {

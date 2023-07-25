@@ -17,3 +17,15 @@ img {
     height: 60px;
     margin: auto;
 }
+
+@media screen and (max-width: 600px) {
+
+    #contact-copy {
+        margin: 5vh auto;
+    }
+
+    img {
+        width: 90vw;
+        margin: auto 5vw 5vh 5vw;
+    }
+}

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Cormorant Garamond';
-  background-color: rgb(250,240,225);
+  background-color: rgb(250, 240, 225);
 }
 
 .nav li,
@@ -111,13 +111,14 @@ footer {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 0px 20px; 
-  background: rgb(15,15,15);
+  padding: 0px 20px;
+  background: rgb(15, 15, 15);
   width: calc(100% - 40px);
   color: rgb(227, 231, 179);
 }
 
-footer p, footer p a {
+footer p,
+footer p a {
   font-size: 14px;
 }
 
@@ -153,16 +154,31 @@ footer p a {
   }
 
   nav ul.is-active {
-    display: block;
-    padding-top: 5vw;
+    position: absolute;
+    top: 79px;
+    left: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vw 0;
+    background-color: rgb(15, 15, 15);
+    width: 100vw;
+    height: calc(100vh - 79px - 10vw);
   }
 
   .nav li a {
     display: block;
-    margin: 1vw auto;
-    padding: 3vw 3vw;
-    font-size: 24px;
+    margin: 5vw auto;
+    padding: 3vw 10vw;
+    font-size: 30px;
     width: fit-content;
+    border: 1px solid rgb(227, 231, 179);
+  }
+
+  nav li .activePage {
+    border: 0px;
+    background-color: rgb(228, 67, 113);
   }
 
   #menu-button {
