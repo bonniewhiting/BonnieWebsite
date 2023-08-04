@@ -31,8 +31,6 @@ p {
   font-size: calc((1.5 - 1) * 1.2vw + .5rem);
 }
 
-/* things for the header */
-
 header {
   display: flex;
   position: sticky;
