@@ -2,6 +2,10 @@ h3 {
     text-align: center;
 }
 
+h3 a {
+    color: black;
+}
+
 img {
     width: 60vw;
     margin: auto 20vw 3em 20vw;

@@ -27,5 +27,5 @@ window.onload = function () {
       container.scrollLeft += slideWidth;
       i++
     }
-  }, 30000)
+  }, 10000)
 }

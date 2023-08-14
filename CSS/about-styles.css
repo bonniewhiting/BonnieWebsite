@@ -56,7 +56,7 @@ section p {
     scroll-behavior: smooth;
     position: relative;
     margin: 0 auto;
-    background-image: url(../images/cage-score.jpeg);
+    background-image: url(../images/cage-score.webp);
     border-radius: 30px;
 }
 
