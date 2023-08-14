@@ -9,23 +9,38 @@ button.addEventListener('click', function(){
   } else menuUL.classList.add('is-active');
 });
 
-// for the press carousel
+// // for the press carousel
 
-window.onload = function () {
-  const container = document.getElementById('press')
-  const slides = document.getElementsByClassName('slide')
+// window.onload = function () {
+//   const container = document.getElementById('press')
+//   const slides = document.getElementsByClassName('slide')
 
-  let i = 1
+//   let i = 1
 
-  setInterval(() => {
-    const slideWidth = (slides[0].clientWidth / 94 * 100);
-    if (i === slides.length) {
-      container.scrollLeft -= (slideWidth * (slides.length - 1))
-      i = 1
-    }
-    else {
-      container.scrollLeft += slideWidth;
-      i++
-    }
-  }, 10000)
-}
+//   setInterval(() => {
+//     const slideWidth = (slides[0].clientWidth / 94 * 100);
+//     if (i === slides.length) {
+//       container.scrollLeft -= (slideWidth * (slides.length - 1))
+//       i = 1
+//     }
+//     else {
+//       container.scrollLeft += slideWidth;
+//       i++
+//     }
+//   }, 10000)
+// }
+
+const slidesContainer = document.getElementById("press");
+const slide = document.querySelector(".slide");
+const prevButton = document.getElementById("slArrowPrev");
+const nextButton = document.getElementById("slArrowNext");
+ 
+nextButton.addEventListener("click", () => {
+  const slideWidth = slidesContainer.clientWidth;
+  slidesContainer.scrollLeft += slideWidth;
+});
+ 
+prevButton.addEventListener("click", () => {
+  const slideWidth = slidesContainer.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+});
