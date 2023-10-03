@@ -78,6 +78,7 @@ a:hover {
     width: 100%;
     min-width: 500px;
     margin: 10px auto;
+    height: 100%;
 }
 
 #SPP-text,
@@ -133,6 +134,7 @@ a:hover {
     /* max-height: 250px;
     max-width: 886px; */
     width: 100%;
+    height: 100%;
     margin: 0px auto;
 }
 
